@@ -1,0 +1,17 @@
+{
+  "currentPopup": "creton-launch-2025",
+  "popups": {
+    "creton-launch-2025": {
+      "active": true,
+      "startDate": "2025-03-20T00:00:00",
+      "endDate": "2025-04-20T23:59:59",
+      "title": "Creton Hunter's Adventure Game Now Live on Telegram!",
+      "content": "Creton Hunter's Adventure Game is now available as a Telegram mini-game in Tap-to-Earn format!",
+      "additionalContent": "Join the adventure and earn rewards while playing. Experience the thrill of hunting in this exciting T2E game where your skills can earn you real rewards!",
+      "imageUrl": "images/popup/creton Game video.mp4",
+      "buttonText": "Check Event Details on Telegram",
+      "buttonUrl": "https://t.me/creton_game/3",
+      "buttonIcon": "fab fa-telegram"
+    }
+  }
+}
