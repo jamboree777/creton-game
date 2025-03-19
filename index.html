@@ -746,29 +746,5 @@
         window.addEventListener('load', animateOnScroll);
         window.addEventListener('scroll', animateOnScroll);
     </script>
-    <!-- 팝업 공지 코드 추가 -->
-<div id="popup-overlay"></div>
-<div id="popup">
-    <h2>공지사항</h2>
-    <p>미니게임에 참여하세요!</p>
-    <a href="https://t.me/creton_game/3" target="_blank">여기에서 확인하기</a>
-    <button class="close-btn" onclick="closePopup()">닫기</button>
-</div>
-
-<script>
-    function showPopup() {
-        document.getElementById('popup').style.display = 'block';
-        document.getElementById('popup-overlay').style.display = 'block';
-    }
-
-    function closePopup() {
-        document.getElementById('popup').style.display = 'none';
-        document.getElementById('popup-overlay').style.display = 'none';
-    }
-
-    window.onload = function() {
-        setTimeout(showPopup, 3000);
-    };
-</script>
 </body>
 </html>
